@@ -1,0 +1,145 @@
+.drop{
+    
+    width: 250px;
+    top: 50px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}.drop a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 10px ;
+}
+.nav-item:hover .drop{
+    opacity: 1;
+    visibility: visible;
+}
+:root{
+    --bg-secondaryl: #ffffffca !important ;
+}
+.navbar .bg-secondary{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: var(--bg-secondaryl) !important;
+    /* position: fixed; */
+}
+.navbar .rounded-pill{
+    border-radius: 10px !important;
+}
+.navbar .btn{
+    padding: 5px 20px;
+    border: none;
+    color: #fff;
+    transition: .3s;
+    background: rgb(173,4,158);
+    background: linear-gradient(90deg, rgba(173,4,158,1) 0%, rgba(99,2,85,1) 100%);
+}.navbar .btn:hover{
+    color: #fff;
+    transform: scaleX(1.1);
+}
+
+.banner{
+    height: 80vh;
+}
+.banner .py-10{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.banner .img-hero{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;clip-path: polygon(9% 0, 100% 0, 100% 100%, 0% 100%);
+}
+.banner .h-80{
+    height: 80%;
+}
+.banner .txt-gra{
+    font-weight: bold;
+    color: rgb(173,4,158);
+    color: linear-gradient(90deg, rgba(173,4,158,1) 0%, rgba(99,2,85,1) 100%);
+}
+.banner .btnget{
+    color: #fff;
+    border: none;
+    padding: 5px 15px;
+    background: rgb(173,4,158);
+    transition: .3s;
+    background: linear-gradient(90deg, rgba(173,4,158,1) 0%, rgba(99,2,85,1) 100%);
+}
+.banner .btnget:hover{
+    transform: scaleX(1.1);
+}
+.banner .btnRead{
+    background: none;
+    border: none;
+    color: rgb(173,4,158);
+    color: linear-gradient(90deg, rgba(173,4,158,1) 0%, rgba(99,2,85,1) 100%);
+}
+
+.ads-card .ads-icon{
+    color: rgb(173,4,158);
+    color: linear-gradient(90deg, rgba(173,4,158,1) 0%, rgba(99,2,85,1) 100%);
+}
+
+.item-card1{
+    width: 100%;
+    border-radius: 12px;
+	display: inline-block;
+	transition: 0.4s ease-in;
+    background-image: url(../img/our-working/books.jpg);
+    background-size: cover;
+}
+.item-card1 .h2{
+    margin-top: 250px;
+    
+}
+.b2 {
+	transform-origin: bottom center;
+}
+.b2:hover {
+	opacity: 0.8;
+	transform: perspective(300px) rotatex(5deg);
+}
+.item-card2{
+    width: 100%;
+    border-radius: 12px;
+	display: inline-block;
+	transition: 0.4s ease-in;
+    background-image: url(../img/our-working/glass-wall.jpg);
+    background-size: cover;
+}
+.item-card2 .h2{
+    margin-top: 250px;
+    
+}
+.b2 {
+	transform-origin: bottom center;
+}
+.b2:hover {
+	opacity: 0.8;
+	transform: perspective(300px) rotatex(5deg);
+}
+
+@media screen and (min-width: 768px) {
+    
+}
+@media screen and (min-width: 992px) {
+    .navbar .rounded-pill{
+        border-radius: 50px !important;
+    }
+    .w-51{
+        width: 60%;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .w-51{
+        width: 50%;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .w-51{
+        width: 50%;
+    }
+}
